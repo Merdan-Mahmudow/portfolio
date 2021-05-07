@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]>
+<!--><html class="no-js" lang="ru"><!--<![endif]-->
+<head>
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>Ticker</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- CSS
+  ================================================== -->
+  <link rel="stylesheet" href="css/base.css"/>
+  <link rel="stylesheet" href="css/skeleton.css"/>
+  <link rel="stylesheet" href="css/project.css"/>
+  <link rel="stylesheet" href="css/font-awesome.css" />
+  <link rel="stylesheet" href="css/colorbox.css"/>
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <link rel="stylesheet" href="css/owl.theme.css" />
+  
+    <!--[if lte IE 8]>
+        <script src="js/html5.js"></script>
+    <![endif]-->    
+    
+  <!-- Favicons
+  ================================================== -->
+  <link rel="shortcut icon" href="favicon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+</head>
+<body>
+
+  <div id="preloader">
+    <div id="status">&nbsp;</div>
+  </div>  
+  
+  <!-- Primary Page Layout
+  ================================================== -->
+
+  
+  <div id="project">
+    <div class="container">
+      <div class="nine columns">
+        <div id="owl-demo-project" class="owl-carousel owl-theme">
+          <div class="item">
+            <img src="projects/ticker/img/ticker/tick1.JPG" alt=""/>  
+          </div> 
+          <div class="item">
+            <img src="projects/ticker/img/ticker/tick2.JPG" alt=""/>  
+          </div>
+          <div class="item">
+            <img src="projects/ticker/img/ticker/3.JPG" alt=""/>  
+          </div>
+          <div class="item">
+            <img src="projects/ticker/img/ticker/4.JPG" alt=""/>  
+          </div>
+          <div class="item">
+            <img src="projects/ticker/img/ticker/5.JPG" alt=""/>  
+          </div>
+          <div class="item">
+            <img src="projects/ticker/img/ticker/6.JPG" alt=""/>  
+          </div>
+          <div class="item">
+            <img src="images/projectsticker/c1.JPG" alt=""/>  
+          </div>
+        </div> 
+      </div>
+      <div class="seven columns"> 
+        <h5><span>web design</span>Тикер</h5>
+        <div class="subtext-project">Часы с обратным отсчётом.</div>
+        <p>Тикер - это адаптивный сайт, с красивым дизайном и слайдером. Красивые часы сделанный в CANVAS и с обратным отсчётом.</p> 
+        <a href="projects/ticker/index.html"><p><span>Visit site!</span></p></a>
+      </div>  
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  
+  <!-- JAVASCRIPT
+    ================================================== -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+<script type="text/javascript" src="js/jquery.easing.js"></script> 
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>  
+<script type="text/javascript">
+  $(window).load(function() {
+    $("#status").fadeOut();
+    $("#preloader").delay(350).fadeOut("slow");
+  }) 
+  
+$(document).ready(function() {
+ 
+  $("#owl-demo-project").owlCarousel({
+ 
+      navigation : false,
+      singleItem:true
+  });
+ 
+});    
+</script>    
+<!-- End Document
+================================================== -->
+</body>
+</html>  
